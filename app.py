@@ -19,7 +19,7 @@ st.sidebar.header("Enter pollutant values")
 
 inputs = {}
 for col in feature_columns:
-    inputs[col] = st.sidebar.number_input(col, value=0.0)
+    inputs[col] = st.sidebar.number_input(col, value=10.0)
 
 # Convert to DataFrame
 input_df = pd.DataFrame([inputs])
