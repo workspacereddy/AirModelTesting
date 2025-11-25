@@ -1,6 +1,7 @@
 streamlit
-lightgbm
-scikit-learn
-joblib
 pandas
 numpy
+scikit-learn
+joblib
+requests
+python-dateutil
